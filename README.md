@@ -10,7 +10,7 @@ The Observing Schedule Manager is a web application that allows users to schedul
 ## Technologies Used
 
 - **Backend**: Node.js, Express.js, Mongoose (MongoDB)
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: React, Axios, CSS
 - **Other Dependencies**: body-parser, cors
 
 ## Directory Structure
@@ -25,9 +25,15 @@ observing-schedule-manager/
 │ ├── app.js
 │ └── server.js
 └── frontend/
-├── index.html
-├── styles.css
-└── app.js
+├── public/
+│ ├── index.html
+└── src/
+├── components/
+│ ├── ScheduleForm.js
+│ └── ScheduleList.js
+├── App.js
+├── index.js
+└── styles.css
 ```
 
 
@@ -52,6 +58,12 @@ observing-schedule-manager/
     npm install
     ```
 
+3. Install frontend dependencies:
+    ```bash
+    cd frontend
+    npm install
+    ```
+
 ### Running the Application
 
 #### Backend
@@ -63,6 +75,7 @@ observing-schedule-manager/
 
 2. Run the backend server:
     ```bash
+    cd backend
     node server.js
     ```
 
@@ -70,7 +83,13 @@ observing-schedule-manager/
 
 #### Frontend
 
-1. Open the `index.html` file located in the `frontend` directory in your web browser.
+1. Start the React development server:
+    ```bash
+    cd frontend
+    npm start
+    ```
+
+   The frontend will be running on `http://localhost:3000`.
 
 ## Usage
 
@@ -95,5 +114,4 @@ observing-schedule-manager/
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 
