@@ -15,29 +15,20 @@ The Observing Schedule Manager is a web application that allows users to schedul
 
 ## Directory Structure
 
+```bash
 observing-schedule-manager/
-
 ├── backend/
-
 │ ├── models/
-
 │ │ └── Schedule.js
-
 │ ├── routes/
-
 │ │ └── scheduleRoutes.js
-
 │ ├── app.js
-
 │ └── server.js
-
 └── frontend/
-
 ├── index.html
-
 ├── styles.css
-
 └── app.js
+```
 
 
 ## Getting Started
@@ -51,8 +42,8 @@ observing-schedule-manager/
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/observing-schedule-manager.git
-    cd observing-schedule-manager
+    git clone https://github.com/astrojohannes/fullstack-interactive-observing-schedule-manager
+    cd fullstack-interactive-observing-schedule-manager
     ```
 
 2. Install backend dependencies:
