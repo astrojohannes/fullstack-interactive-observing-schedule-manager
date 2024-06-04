@@ -16,16 +16,27 @@ The Observing Schedule Manager is a web application that allows users to schedul
 ## Directory Structure
 
 observing-schedule-manager/
+
 ├── backend/
+
 │ ├── models/
+
 │ │ └── Schedule.js
+
 │ ├── routes/
+
 │ │ └── scheduleRoutes.js
+
 │ ├── app.js
+
 │ └── server.js
+
 └── frontend/
+
 ├── index.html
+
 ├── styles.css
+
 └── app.js
 
 
