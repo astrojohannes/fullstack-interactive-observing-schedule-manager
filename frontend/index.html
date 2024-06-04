@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Observing Schedule Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Observing Schedule Manager</h1>
+        <form id="scheduleForm">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="timeSlot">Time Slot:</label>
+            <input type="text" id="timeSlot" name="timeSlot" required>
+
+            <label for="telescope">Telescope:</label>
+            <input type="text" id="telescope" name="telescope" required>
+
+            <label for="instrument">Instrument:</label>
+            <input type="text" id="instrument" name="instrument" required>
+
+            <button type="submit">Submit</button>
+        </form>
+        <h2>Scheduled Observations</h2>
+        <ul id="scheduleList"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
